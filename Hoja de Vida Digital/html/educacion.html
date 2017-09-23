@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,user-scalable=no">
+		<title>Hoja de vida digital:Educación</title>
+	</head>
+	<body>
+		<header>
+			<img src="../media/logo.svg" height="125px">
+			<h1>Hoja de Vida</h1>
+			<h2>Carlos Hernández</h2>
+			<nav>
+				<ul>
+					<li><a href="../index.html">Inicio</a></li>
+					<li><a href="educacion.html">Educación</a></li>
+					<li><a href="experiencia.html">Experiencia</a></li>
+				</ul>
+			</nav>
+		</header>
+		<article>
+			<h2>Educación</h2>
+		<table border="1">
+			<thead>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2012</td>
+					<td>Universidad Hispanoamericana</td>
+					<td>Costa Rica</td>
+					<td>Sí</td>
+				</tr>
+				<tr>
+					<td>2014</td>
+					<td>Cenfotec</td>
+					<td>Costa Rica</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>Next U</td>
+					<td>Online</td>
+					<td>No</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		</article>
+		
+		<form name="Agregar Estudios">
+			<legend><h2>Agregar Estudios</h2></legend>
+			
+			<label for="anio"><strong>Año:</strong></label>
+			<select id="anio">
+				<option>Año</option>
+				<option>2012</option>
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+				<option>2016</option>
+				<option>2017</option>
+			</select><br><br>
+			
+			<label for="institucion"><strong>Institución:</strong></label>
+			<input type="text" name="Institucion" id="institucion" required><br><br>
+			
+			<label for="lugar"><strong>Lugar:</strong></label>
+			<textarea name="lugar" rows="4" cols="40"></textarea><br><br>
+
+			<label for="culminacion"><strong>¿Culminó?:</strong></label>
+			<input type="radio" name="culminacion" value="si">Si
+			<input type="radio" name="culminacion" value="no">No <br><br>
+			<input type="submit">
+		</form>
+		<br>
+		<footer>
+			<p>@Derechos Reservados</p>
+			<ul>
+				<li>
+					<strong>Correo electrónico:</strong> <a href="mailto:chernandez@gmail.com">chernandez@gmail.com</a>
+				</li>
+				<li><strong>Número celular:</strong> 8080-4325</li>
+				<li><strong>Dirección:</strong> San José, San José, Costa Rica.</li>
+			</ul>
+		</footer>
+	</body>
+</html>
